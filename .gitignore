@@ -1,0 +1,38 @@
+# This file tells Git which files to ignore (not track).
+# You usually don't need to edit this, but you can add
+# lines if there are files you want Git to skip.
+
+# Dependencies (installed packages -- these get re-downloaded, no need to track them)
+node_modules/
+venv/
+.venv/
+
+# Environment files (may contain passwords or API keys -- never commit these)
+.env
+.env.local
+.env.*.local
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS files (hidden system files your computer creates automatically)
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+!.vscode/settings.json
+*.swp
+*.swo
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Logs
+*.log
+npm-debug.log*
